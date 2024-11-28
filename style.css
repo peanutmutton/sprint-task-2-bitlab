@@ -1,0 +1,111 @@
+.greyspace{
+    display: flex;
+}
+
+.avatar-friends-space{
+    margin-left: 200px;
+}
+.greyspace{
+    margin-left: 100px;
+    margin-right: 200px;
+
+}
+
+.sidebar-item{
+    margin: 10px;
+}
+
+.navbar{
+    background-color: aqua;
+}
+
+.avatar-space img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.avatar-space button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+
+.friend img{
+    width: 50px;
+    height: 50px;
+}
+.friends-list{
+    display: flex;
+}
+
+/*.greyspace{*/
+/*    background-color: grey;*/
+/*}*/
+body {
+    background-color: grey;
+}
+
+.avatar-space,.friends-space,.info-space,.photo-space,.post{
+    background-color: white;
+}
+
+.avatar-space{
+    margin-bottom:  20px;
+    margin-top: 10px;
+    display: grid;
+
+}
+
+.name-online{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-online div {
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.info-space, .photo-space ,.post{
+    width: 900px;
+    margin: 20px;
+}
+
+.personal-info {
+    display: flex;
+}
+
+
+
+.personal-info div {
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+.numbers {
+    display: flex;
+}
+
+.numbers div {
+    margin: 15px;
+}
+
+.photo-space div {
+    display: flex;
+}
+.photo-space div img {
+    margin: 10px;
+}
+
+.post-name-date{
+    display: flex;
+}
